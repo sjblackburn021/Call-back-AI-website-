@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CallBack AI helps plumbing businesses follow up on missed calls and capture customer service requests.">
+<title>CallBack AI — Turn missed calls into opportunities</title>
+<style>
+:root{--navy:#10243a;--blue:#2463eb;--blue2:#1649bd;--ink:#172536;--muted:#617084;--pale:#f3f7fc;--line:#e0e8f1;--white:#fff;--green:#087f5b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.55;background:#fff}
+a{color:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+header{padding:20px 0;border-bottom:1px solid #edf1f6;background:rgba(255,255,255,.96)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:1.2rem;letter-spacing:-.04em;color:var(--navy)}.logo{display:grid;place-items:center;width:38px;height:38px;background:var(--blue);border-radius:12px;color:white;font-weight:900;box-shadow:0 6px 15px #2463eb35}.navlinks{display:flex;align-items:center;gap:24px}.navlinks a{text-decoration:none;color:#435269;font-size:.94rem}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:13px 19px;font-weight:750;text-decoration:none;cursor:pointer;transition:.18s ease}.btn-primary{background:var(--blue);color:white;box-shadow:0 8px 20px #2463eb2c}.btn-primary:hover{background:var(--blue2);transform:translateY(-1px)}.btn-light{background:#eaf1ff;color:var(--blue2)}.hero{padding:78px 0 70px;background:radial-gradient(ellipse at 80% 20%,#dfeaff 0,transparent 35%),linear-gradient(180deg,#fbfdff,#fff)}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:60px}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--blue2);background:#eaf1ff;border:1px solid #d9e5ff;border-radius:999px;padding:7px 12px;font-size:.82rem;font-weight:750}.dot{width:7px;height:7px;background:#19a974;border-radius:50%}h1{font-size:clamp(2.5rem,5vw,4.35rem);line-height:1.03;letter-spacing:-.065em;color:var(--navy);margin:20px 0}.hero p{font-size:1.12rem;color:var(--muted);max-width:570px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 18px}.micro{font-size:.85rem!important;color:#758397!important}.visual{position:relative;background:white;border:1px solid #e2eaf4;border-radius:24px;padding:24px;box-shadow:0 25px 70px #10243a17}.visual-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}.pill{background:#e8f8f1;color:#087f5b;border-radius:999px;padding:5px 10px;font-size:.76rem;font-weight:800}.mock-label{font-size:.78rem;color:#738198;font-weight:750;text-transform:uppercase;letter-spacing:.08em}.call-card{border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0}.call-head{display:flex;justify-content:space-between;gap:10px;font-weight:800}.time{color:#8390a0;font-size:.8rem;font-weight:600}.bubble{margin-top:12px;background:#eef4ff;border-radius:14px 14px 14px 4px;padding:13px;color:#263b58;font-size:.91rem}.status{display:flex;gap:9px;align-items:center;color:#52647a;font-size:.84rem;margin-top:15px}.status b{color:var(--green)}.section{padding:76px 0}.section-tint{background:var(--pale)}.section-head{text-align:center;max-width:680px;margin:0 auto 38px}.section-head h2{font-size:clamp(1.9rem,3vw,2.65rem);letter-spacing:-.045em;line-height:1.12;color:var(--navy);margin:0 0 12px}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:24px}.iconbox{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#eaf1ff;color:var(--blue);font-size:1.35rem;margin-bottom:17px}.card h3{margin:0 0 8px;color:var(--navy);font-size:1.1rem}.card p{margin:0;color:var(--muted);font-size:.96rem}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{padding:22px;border-radius:16px;border:1px solid var(--line);background:white}.stepnum{font-weight:850;color:var(--blue);font-size:.82rem}.step h3{font-size:1rem;margin:9px 0 7px;color:var(--navy)}.step p{font-size:.9rem;color:var(--muted);margin:0}.demo-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:28px;align-items:start}.demo-info h2{font-size:2.3rem;line-height:1.1;letter-spacing:-.05em;color:var(--navy);margin:0 0 15px}.demo-info p{color:var(--muted)}.demo{background:white;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 15px 45px #10243a0d}.demo-title{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:18px}.demo-title h3{margin:0;color:var(--navy)}.tag{font-size:.75rem;background:#f0f3f7;color:#607084;padding:5px 9px;border-radius:999px;font-weight:800}.field{display:block;margin:13px 0 6px;font-size:.88rem;font-weight:750;color:#33455b}.input,select,textarea{width:100%;padding:12px 13px;border:1px solid #d7e0ea;border-radius:10px;font:inherit;background:white;color:var(--ink)}.input:focus,select:focus,textarea:focus{outline:3px solid #2463eb20;border-color:var(--blue)}.demo-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.output{margin-top:18px;padding:16px;border-radius:14px;background:#f2f6fb;border:1px solid #e0e8f1;display:none}.output.show{display:block}.output small{display:block;color:var(--muted);margin-top:10px}.checklist{list-style:none;padding:0;margin:20px 0}.checklist li{display:flex;gap:10px;margin:12px 0;color:#42536a}.check{color:var(--green);font-weight:900}.cta{background:var(--navy);color:white;border-radius:24px;padding:42px;display:flex;justify-content:space-between;align-items:center;gap:25px}.cta h2{margin:0 0 8px;font-size:clamp(1.7rem,3vw,2.5rem);letter-spacing:-.04em}.cta p{color:#c4d0df;margin:0}.cta .btn{background:white;color:var(--navy);white-space:nowrap}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contact-card{border:1px solid var(--line);border-radius:18px;padding:25px}.contact-card h3{margin-top:0;color:var(--navy)}.fine{font-size:.82rem;color:#718096}.success{color:var(--green);font-weight:700;margin-top:12px;display:none}.success.show{display:block}footer{padding:28px 0;border-top:1px solid var(--line);color:#77869a;font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){.hero-grid,.demo-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:52px 0}.visual{max-width:600px}.cards{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.cta{align-items:flex-start;flex-direction:column}.navlinks a:not(.btn){display:none}}
+@media(max-width:520px){.wrap{width:min(100% - 28px,1120px)}.steps{grid-template-columns:1fr}.visual,.demo{padding:17px}.section{padding:55px 0}.hero-actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="CallBack AI home"><span class="logo">↗</span>CallBack AI</a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a><a href="#demo">Demo</a><a class="btn btn-primary" href="#contact">Request a demo</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Built for busy plumbing teams</span>
+      <h1>Every missed call is a chance to win another job.</h1>
+      <p>CallBack AI helps plumbing businesses follow up when calls go unanswered, collect service details, and give potential customers a clear next step—without pulling you away from the job.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#contact">Request a free demo →</a><a class="btn btn-light" href="#how-it-works">See how it works</a></div>
+      <p class="micro">Start with a simple demonstration. No long-term commitment required for an initial conversation.</p>
+    </div>
+    <div class="visual" aria-label="Illustration of a missed call follow-up">
+      <div class="visual-top"><div><div class="mock-label">Example workflow</div><strong>Missed call recovery</strong></div><span class="pill">Sample flow</span></div>
+      <div class="call-card">
+        <div class="call-head"><span>📞 Incoming call</span><span class="time">10:42 AM</span></div>
+        <div class="status">● <span>Call not answered while the team is on a job</span></div>
+      </div>
+      <div class="call-card">
+        <div class="call-head"><span>💬 Follow-up text</span><span class="time">Example</span></div>
+        <div class="bubble">Hi, this is ABC Plumbing. Sorry we missed your call. What plumbing service do you need? Reply STOP to opt out.</div>
+        <div class="status"><b>✓</b> <span>Customer can explain what they need</span></div>
+      </div>
+      <div class="call-card">
+        <div class="call-head"><span>✓ Service inquiry</span><span class="pill">Next step</span></div>
+        <div class="status">Customer details are routed to the plumbing team for follow-up and appointment confirmation.</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap">
+    <div class="section-head"><h2>Keep your focus on the job.<br>Give callers a next step.</h2><p>When you're on a ladder, under a sink, or helping another customer, it's easy to miss a new inquiry. A thoughtful follow-up can help keep that opportunity alive.</p></div>
+    <div class="cards">
+      <article class="card"><div class="iconbox">↩</div><h3>Follow up on missed calls</h3><p>Send an appropriate, timely reply when the configured phone system detects an eligible missed call.</p></article>
+      <article class="card"><div class="iconbox">☷</div><h3>Collect the job details</h3><p>Give customers a simple way to explain the issue so your team can decide what to do next.</p></article>
+      <article class="card"><div class="iconbox">▣</div><h3>Make the next step clear</h3><p>Route inquiries to your team and help customers request an appointment, subject to your availability.</p></article>
+    </div>
+  </div>
+</section>
+<section class="section section-tint" id="how-it-works">
+  <div class="wrap">
+    <div class="section-head"><h2>Simple by design</h2><p>A clear process that supports your team rather than trying to replace it.</p></div>
+    <div class="steps">
+      <article class="step"><div class="stepnum">STEP 01</div><h3>A call goes unanswered</h3><p>Your configured phone system identifies an eligible missed call.</p></article>
+      <article class="step"><div class="stepnum">STEP 02</div><h3>A follow-up is sent</h3><p>The system sends an appropriate message using the business's approved setup.</p></article>
+      <article class="step"><div class="stepnum">STEP 03</div><h3>The customer explains</h3><p>Basic service details are collected and organized for your team.</p></article>
+      <article class="step"><div class="stepnum">STEP 04</div><h3>Your team takes over</h3><p>You confirm urgency, availability, pricing, and the appointment directly.</p></article>
+    </div>
+  </div>
+</section>
+<section class="section" id="demo">
+  <div class="wrap demo-grid">
+    <div class="demo-info">
+      <span class="eyebrow">Interactive sample</span>
+      <h2>See a sample follow-up in action.</h2>
+      <p>Try the workflow with a fictional customer. This local demo illustrates the experience; it does not send messages, connect to a phone line, or store submitted information.</p>
+      <ul class="checklist"><li><span class="check">✓</span> Simulate an unanswered call</li><li><span class="check">✓</span> Generate a sample follow-up</li><li><span class="check">✓</span> Preview an inquiry summary</li></ul>
+      <p class="fine">Live texting and automation would be configured and tested separately with the business's authorization.</p>
+    </div>
+    <div class="demo">
+      <div class="demo-title"><h3>Missed-call simulator</h3><span class="tag">DEMO ONLY</span></div>
+      <label class="field" for="customerName">Customer first name</label><input class="input" id="customerName" value="Alex" maxlength="60">
+      <label class="field" for="serviceType">Service requested</label>
+      <select id="serviceType"><option>Leaking pipe</option><option>Clogged drain</option><option>Water heater problem</option><option>Other plumbing issue</option></select>
+      <label class="field" for="urgency">Urgency</label>
+      <select id="urgency"><option>Not sure yet</option><option>Urgent — needs a callback</option><option>Routine appointment</option></select>
+      <div class="demo-actions"><button class="btn btn-primary" id="generateBtn">Simulate missed call</button><button class="btn btn-light" id="resetBtn" type="button">Reset</button></div>
+      <div class="output" id="output" aria-live="polite"><strong>Sample follow-up message</strong><p id="messageText"></p><small>Not sent. In a live setup, messaging consent, carrier requirements, opt-outs, and emergency handling must be configured first.</small><hr style="border:0;border-top:1px solid #dce5ef;margin:16px 0"><strong>Inquiry summary</strong><p id="summaryText"></p></div>
+    </div>
+  </div>
+</section>
+<section class="section section-tint" id="contact">
+  <div class="wrap">
+    <div class="section-head"><h2>Curious what it could look like for your business?</h2><p>Request a short walkthrough. We'll discuss how you currently handle missed calls and whether a pilot makes sense.</p></div>
+    <div class="contact-grid">
+      <div class="contact-card"><h3>What we'll cover</h3><ul class="checklist"><li><span class="check">✓</span> Your current call-handling process</li><li><span class="check">✓</span> A sample follow-up workflow</li><li><span class="check">✓</span> Setup requirements and costs</li><li><span class="check">✓</span> Whether a small pilot is a fit</li></ul><p class="fine">No results or revenue are guaranteed. The service scope and any charges should be agreed before live activation.</p></div>
+      <form class="contact-card" id="contactForm">
+        <h3>Request a demo</h3>
+        <label class="field" for="company">Company name</label><input class="input" id="company" name="company" required maxlength="120" placeholder="Your plumbing company">
+        <label class="field" for="email">Business email</label><input class="input" id="email" name="email" type="email" required maxlength="200" placeholder="you@company.com">
+        <label class="field" for="notes">What would you like help with? (optional)</label><textarea id="notes" name="notes" rows="3" maxlength="1000" placeholder="Tell us how you handle missed calls today"></textarea>
+        <button class="btn btn-primary" type="submit" style="width:100%;margin-top:16px">Prepare demo request</button>
+        <p class="fine">This starter page has no backend connected. Submitting will prepare a draft email on your device; it won't send automatically.</p>
+        <p class="success" id="formSuccess" role="status">Your email draft should open in your email app. Please review it before sending.</p>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap"><div class="cta"><div><h2>Make every caller feel heard.</h2><p>Start with a walkthrough of the missed-call follow-up experience.</p></div><a class="btn" href="#contact">Request a demo →</a></div></div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> CallBack AI · Working business concept</span><span>Independent service concept. Not an emergency dispatch service.</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const byId=id=>document.getElementById(id);
+byId('generateBtn').addEventListener('click',()=>{
+  const name=byId('customerName').value.trim()||'there';
+  const service=byId('serviceType').value;
+  const urgency=byId('urgency').value;
+  byId('messageText').textContent=`Hi ${name}, this is ABC Plumbing. Sorry we missed your call. What can we help you with regarding your ${service.toLowerCase()}? Please share the service address and a good time to call. If this is an immediate danger, contact local emergency services. Reply STOP to opt out.`;
+  byId('summaryText').textContent=`Customer: ${name} · Service: ${service} · Urgency: ${urgency}. Next action: a team member reviews the inquiry and confirms availability.`;
+  byId('output').classList.add('show');
+});
+byId('resetBtn').addEventListener('click',()=>{byId('customerName').value='Alex';byId('serviceType').selectedIndex=0;byId('urgency').selectedIndex=0;byId('output').classList.remove('show');});
+byId('contactForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const company=byId('company').value.trim(),email=byId('email').value.trim(),notes=byId('notes').value.trim();
+  const subject=encodeURIComponent('CallBack AI demo request — '+company);
+  const body=encodeURIComponent('Hello,\n\nI would like to request a CallBack AI demonstration.\n\nCompany: '+company+'\nBusiness email: '+email+'\nNotes: '+(notes||'None')+'\n\nPlease contact me about next steps.');
+  byId('formSuccess').classList.add('show');
+  window.location.href='mailto:?subject='+subject+'&body='+body;
+});
+</script>
+</body>
+</html>
